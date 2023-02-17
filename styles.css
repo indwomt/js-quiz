@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --hue-neutral: 200;
+  --hue-wrong: 0;
+  --hue-correct: 145;
+}
+.quizContainer {
+padding: 0;
+margin: 0;
+display: flex;
+width: 100vw;
+height: 50vh;
+justify-content: center;
+align-items: center;
+}
+
+button {
+  color:red;
+}
+
+.hidden {
+  display: none;
+}
+
+#choices li {
+  list-style: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* #input-hidden {
+  display: none;
+} */
+
+#scores {
+  margin-left: 650px;
+  height: 400px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#questionBox {
+border-style: dotted ;
+}
